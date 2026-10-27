@@ -1,4 +1,4 @@
-# Root-and-Bloom
+
 # 🌿 Root & Bloom
 
 A simple, responsive plant shop website built using HTML and Tailwind CSS.
