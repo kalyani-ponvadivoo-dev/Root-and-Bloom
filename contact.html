@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!---TAILWIND-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!--Nav bar-->
+    <nav class="bg-green-300 p-4 flex items-center justify-between shadow-2xl sticky top-0 z-20">
+        <h1 class="text-2xl">Root and Bloom</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 md:hidden">
+            <path fill-rule="evenodd"
+                d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+
+        <ul class="hidden gap-2 text-gray-200  md:flex">
+            <li>
+                <a href="index.html" class="hover:underline text-green-700" href="#">Home</a>
+            </li>
+            <li>
+                <a href="product.html" class="hover:underline text-green-700" href="#">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline text-green-700" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Search bar-->
+    <div class="flex max-w-xl mx-auto mt-6 border rounded-full p-2">
+        <input type="text" placeholder="Search plants..." class="flex-1 w-0 min-w-0 px-3 outline-none">
+        <button class="bg-green-600 text-white px-4 py-2 rounded-full">
+            Search
+        </button>
+    </div>
+    <!--Contact-->
+    <!-- Contact Section -->
+    <section class="max-w-5xl mx-auto px-4 py-12">
+
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-bold text-green-800">Contact Us</h2>
+            <p class="text-gray-600 mt-3">
+                Have a question about our plants? We'd love to hear from you!
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <!-- Contact Information -->
+            <div class="bg-green-800 text-white p-8 rounded-xl">
+                <h3 class="text-2xl font-bold mb-6">Get in Touch</h3>
+
+                <p class="mb-6">
+                    <i class="fa-solid fa-location-dot mr-3"></i>
+                    Chennai, Tamil Nadu
+                </p>
+
+                <p class="mb-6">
+                    <i class="fa-solid fa-envelope mr-3"></i>
+                    support@rootandbloom.com
+                </p>
+
+                <p class="mb-6">
+                    <i class="fa-solid fa-phone mr-3"></i>
+                    +91 987654321
+                </p>
+
+                <p class="text-green-100">
+                    We're happy to help you find the perfect plant for your home.
+                </p>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="bg-white p-8 rounded-xl shadow-md">
+
+                <label class="block mb-2 font-semibold">Your Name</label>
+                <input type="text" placeholder="Enter your name"
+                    class="w-full border rounded-lg p-3 mb-5 outline-none focus:border-green-500">
+
+                <label class="block mb-2 font-semibold">Your Email</label>
+                <input type="email" placeholder="Enter your email"
+                    class="w-full border rounded-lg p-3 mb-5 outline-none focus:border-green-500">
+
+                <label class="block mb-2 font-semibold">Subject</label>
+                <input type="text" placeholder="Enter subject"
+                    class="w-full border rounded-lg p-3 mb-5 outline-none focus:border-green-500">
+
+                <label class="block mb-2 font-semibold">Your Message</label>
+                <textarea rows="4" placeholder="Write your message..."
+                    class="w-full border rounded-lg p-3 mb-5 outline-none focus:border-green-500"></textarea>
+
+                <button type="submit" class="w-full bg-green-700 text-white py-3 rounded-lg hover:bg-green-800">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="bg-green-800 text-white text-center p-6">
+        <h2 class="font-bold text-2xl mb-3">🌿 Root & Bloom </h2>
+        <p class="mb-3">Bring nature home with beautiful plants.</p>
+        <div class="flex justify-center p-2 gap-4">
+            <a href="index.html" class="focus:underline">Home</a>
+            <a>Shop</a>
+            <a>About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <hr class="border-green-300 my-4">
+        <p>© 2026 Root & Bloom. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
