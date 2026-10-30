@@ -12,15 +12,28 @@
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="bg-green-300 p-4 flex items-center justify-between shadow-xl sticky top-0 z-20">
+    <!--Nav bar-->
+    <nav class="bg-green-300 p-4 flex items-center justify-between shadow-2xl sticky top-0 z-20">
         <h1 class="text-2xl">Root and Bloom</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 md:hidden">
+            <path fill-rule="evenodd"
+                d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
 
-        <ul class="flex gap-4 text-green-800">
-            <li><a href="index.html" class="hover:underline">Home</a></li>
-            <li><a href="product.html" class="hover:underline">Products</a></li>
-            <li><a href="about.html" class="hover:underline">About</a></li>
-            <li><a href="contact.html" class="hover:underline">Contact</a></li>
+        <ul class="hidden gap-2 text-gray-200  md:flex">
+            <li>
+                <a class="hover:underline text-green-700" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline text-green-700" href="product.html">Products</a>
+            </li>
+            <li>
+                <a href="about.html" class="hover:underline text-green-700">About</a>
+            </li>
+            <li>
+                <a class="hover:underline text-green-700" href="contact.html">Contact</a>
+            </li>
         </ul>
     </nav>
 
@@ -40,9 +53,7 @@
     <section class="p-8 md:flex items-center gap-10">
 
         <div class="md:w-1/2">
-            <img src="images/headerimage.jpg"
-                alt="Beautiful green plants"
-                class="w-full rounded-xl">
+            <img src="images/headerimage.jpg" alt="Beautiful green plants" class="w-full rounded-xl">
         </div>
 
         <div class="md:w-1/2 mt-6 md:mt-0">
@@ -129,4 +140,5 @@
     </footer>
 
 </body>
+
 </html>
