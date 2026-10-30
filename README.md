@@ -18,6 +18,7 @@ A simple, responsive plant shop website built using HTML and Tailwind CSS.
 ## Pages
 - `index.html` – Home page
 - `product.html` – Products page
+- `about.html` – About page
 - `contact.html` – Contact page
 
 ## How to Run
