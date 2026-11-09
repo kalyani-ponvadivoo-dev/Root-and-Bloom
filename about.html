@@ -15,7 +15,7 @@
     <!--Nav bar-->
     <nav class="bg-green-300 p-4 flex items-center justify-between shadow-2xl sticky top-0 z-20">
         <h1 class="text-2xl">Root and Bloom</h1>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 md:hidden">
+        <svg  id ="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 md:hidden">
             <path fill-rule="evenodd"
                 d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
                 clip-rule="evenodd" />
@@ -36,6 +36,28 @@
             </li>
         </ul>
     </nav>
+     <!--Side nav bar-->
+    <section id="side-nav" class="bg-green-300 transition-all duration-700 text-green-700 fixed top-0 right-0
+           w-1/2 h-screen z-50" style="right:-50%">
+        <div class="text-right p-5">
+            <p id ="close-nav" class="inline cursor-pointer" >x</p>
+        </div>
+
+ <ul class="gap-2 flex flex-col items-center">
+            <li>
+                <a class="hover:underline text-green-700" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline text-green-700" href="product.html">Products</a>
+            </li>
+            <li>
+                <a href="about.html" class="hover:underline text-green-700">About</a>
+            </li>
+            <li>
+                <a class="hover:underline text-green-700" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </section>
 
     <!-- About Header -->
     <section class="bg-green-100 text-center p-10">
@@ -138,7 +160,7 @@
 
         <p>© 2026 Root & Bloom. All rights reserved.</p>
     </footer>
-
+<script src="about.js"></script>
 </body>
 
 </html>
